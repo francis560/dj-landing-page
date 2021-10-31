@@ -1,0 +1,25 @@
+.video {
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.video div video {
+    border-radius: 15px;
+    border: 2px solid #fff;
+    width: 50%;
+}
+
+@media (max-width: 800px) {
+    .video div video {
+        width: 90%;
+    } 
+}
+
+@media (max-width: 500px) {
+    .video div video {
+        width: 100%;
+    } 
+}

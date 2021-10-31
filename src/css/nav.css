@@ -1,0 +1,25 @@
+nav {
+    background-color: rgba(0, 0, 0, 0.692);
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+}
+
+.nav-link {
+    color: rgba(255, 255, 255, 0.678);
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: #fff;
+}
+
+.nav-link:active {
+    color: #fff;
+}
+
+@media (max-width: 991px) {
+    nav div .nav-link {
+        margin: 0 auto !important;
+    } 
+}

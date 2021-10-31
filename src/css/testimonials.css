@@ -1,0 +1,55 @@
+.testimonials {
+    background: black;
+}
+
+.testimonials h2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+}
+
+.testimonials p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.74);
+}
+
+.testimonials .avatar1 {
+    width: 90px;
+    height: 90px;
+    border-radius: 20px;
+    background-image: url('https://images.pexels.com/photos/3226442/pexels-photo-3226442.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.testimonials .avatar2 {
+    width: 90px;
+    height: 90px;
+    border-radius: 20px;
+    background-image: url('https://images.pexels.com/photos/2027490/pexels-photo-2027490.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500 500w, https://images.pexels.com/photos/2027490/pexels-photo-2027490.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500 1000w');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.testimonials .avatar3 {
+    width: 90px;
+    height: 90px;
+    border-radius: 20px;
+    background-image: url('https://images.pexels.com/photos/5773471/pexels-photo-5773471.png?auto=compress&cs=tinysrgb&dpr=1&w=500 500w, https://images.pexels.com/photos/5773471/pexels-photo-5773471.png?auto=compress&cs=tinysrgb&dpr=2&w=500 1000w');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.testimonials .row {
+    text-align: center;
+}
+
+.testimonials .row button {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+}

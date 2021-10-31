@@ -1,0 +1,37 @@
+.pricing .card h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: #212529;
+}
+
+.pricing .card h1 small {
+    color: #212529c0;
+}
+
+.pricing h2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: #212529;
+    text-align: center;
+}
+
+.pricing .card ul li {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+.pricing .card ul li i {
+    color: yellowgreen;
+}
+
+.pricing .card button {
+    color: #212529;
+    background-color: transparent;
+    border: 2px solid #212529;
+}
+
+.pricing .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,37 @@
+.about {
+    width: 100%;
+    background: #000;
+}
+
+.about div h2 {
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: #fff;
+}
+
+.about .content {
+    display: flex;
+    flex-direction: row;
+}
+
+.about .content p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.74);
+}
+
+.about .content img {
+    width: 250px;
+    border-radius: 5px;
+}
+
+@media (max-width: 840px) {
+    .about .content {
+        flex-direction: column;
+    }
+
+    .about .content {
+        text-align: center;
+    }
+}
