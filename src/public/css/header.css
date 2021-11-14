@@ -1,0 +1,25 @@
+.hero {
+    background-image: url('/img/header.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero .container h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: #fff;
+}
+
+.hero .container .lead {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.74);
+}
+
+.hero .container button {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+}
